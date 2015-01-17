@@ -1,5 +1,6 @@
 #Kernel System Call Assigment
 Brandon Mikulka
+brandon.mikulka@colorado.edu
 
 A simple system call that adds 2 numbers together then returns the result to a variable in the userspace.
 

@@ -2295,34 +2295,9 @@ Jan 17 10:08:05 ubuntu NetworkManager[974]: <info>   wins '172.16.219.2'
 Jan 17 10:08:05 ubuntu dbus[671]: [system] Activating service name='org.freedesktop.nm_dispatcher' (using servicehelper)
 Jan 17 10:08:05 ubuntu dhclient: bound to 172.16.219.139 -- renewal in 858 seconds.
 Jan 17 10:08:05 ubuntu dbus[671]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
-Jan 17 10:08:39 ubuntu kernel: [  866.526185] hello world
-Jan 17 10:08:39 ubuntu kernel: [  866.526232] test[3934]: segfault at 0 ip 000000000040059b sp 00007fffcd9390e0 error 6 in test[400000+1000]
-Jan 17 10:09:26 ubuntu kernel: [  913.945976] hello world
-Jan 17 10:09:26 ubuntu kernel: [  913.946124] test[3941]: segfault at 0 ip 000000000040059b sp 00007fff5795ecd0 error 6 in test[400000+1000]
 Jan 17 10:13:47 ubuntu kernel: [ 1175.154577] hello world
 Jan 17 10:14:20 ubuntu uptimed: moving up to position 5: 0 days, 00:20:07
 Jan 17 10:15:10 ubuntu kernel: [ 1257.289235] hello world
 Jan 17 10:15:10 ubuntu kernel: [ 1257.289324] Value for a is 4
 Jan 17 10:15:10 ubuntu kernel: [ 1257.289326] Value for b is 5
 Jan 17 10:15:10 ubuntu kernel: [ 1257.289326] Result of a+b is 9
-Jan 17 10:15:49 ubuntu kernel: [ 1297.196754] hello world
-Jan 17 10:15:49 ubuntu kernel: [ 1297.196834] Value for a is 4
-Jan 17 10:15:49 ubuntu kernel: [ 1297.196835] Value for b is 5
-Jan 17 10:15:49 ubuntu kernel: [ 1297.196836] Result of a+b is 9
-Jan 17 10:16:35 ubuntu kernel: [ 1342.746641] hello world
-Jan 17 10:16:35 ubuntu kernel: [ 1342.746676] Value for a is 4
-Jan 17 10:16:35 ubuntu kernel: [ 1342.746677] Value for b is 5
-Jan 17 10:16:35 ubuntu kernel: [ 1342.746678] Result of a+b is 9
-Jan 17 10:17:01 ubuntu CRON[4024]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
-Jan 17 10:22:23 ubuntu dhclient: DHCPREQUEST of 172.16.219.139 on eth0 to 172.16.219.254 port 67 (xid=0x2fd4bd35)
-Jan 17 10:22:23 ubuntu dhclient: DHCPACK of 172.16.219.139 from 172.16.219.254
-Jan 17 10:22:23 ubuntu NetworkManager[974]: <info> (eth0): DHCPv4 state changed renew -> renew
-Jan 17 10:22:23 ubuntu NetworkManager[974]: <info>   address 172.16.219.139
-Jan 17 10:22:23 ubuntu NetworkManager[974]: <info>   prefix 24 (255.255.255.0)
-Jan 17 10:22:23 ubuntu NetworkManager[974]: <info>   gateway 172.16.219.2
-Jan 17 10:22:23 ubuntu NetworkManager[974]: <info>   nameserver '172.16.219.2'
-Jan 17 10:22:23 ubuntu NetworkManager[974]: <info>   domain name 'localdomain'
-Jan 17 10:22:23 ubuntu NetworkManager[974]: <info>   wins '172.16.219.2'
-Jan 17 10:22:23 ubuntu dbus[671]: [system] Activating service name='org.freedesktop.nm_dispatcher' (using servicehelper)
-Jan 17 10:22:23 ubuntu dhclient: bound to 172.16.219.139 -- renewal in 704 seconds.
-Jan 17 10:22:23 ubuntu dbus[671]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
